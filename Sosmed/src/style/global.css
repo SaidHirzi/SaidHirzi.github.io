@@ -1,0 +1,104 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: blue; */
+    
+    
+}
+
+.container{
+    /* background: white; */
+    color: black;
+    /* display: flex; */
+    height: 500px;
+    /* width: 500px; */
+    text-align: center;
+    background-color: rgb(48, 48, 224)
+
+}
+
+.boorder{
+    height: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}   
+
+.box{
+    text-align: center;
+    background-color: white;
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    justify-content: center;
+    color: black;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 80px; */
+    background-color: white;
+    margin-top: 30px;   
+    box-shadow: 2px #333;
+    padding: 10px;
+    font-style:times;
+}
+.text-align{
+    border: 3px solid black;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 13px;
+    margin-top: 20px;
+
+    align-items: center;
+
+}
+
+.follow{
+    background-color: white;
+
+}
+h1{
+    background-color: white;
+}
+h4{
+    background-color: white;
+}
+button{
+    background-color: white;
+    cursor: pointer;
+    padding: 4px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    transition-duration: 2s;
+
+}
+.icons{
+    font-size: 30px;
+    padding: 10px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: blue;
+}
+.fa-tiktok{
+    color: black;
+}
+.fa-instagram{
+    color: rgb(181, 16, 181);
+}
+
+.ins{
+    font-size: 24px;
+}
